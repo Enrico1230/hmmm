@@ -9,7 +9,7 @@ GitHub is een website waar je code op kunt slaan. GitHub biedt speciale mogelijk
 
     - Elke persoon uit je groepje maakt een GitHub account
     - Github werkt het best met de Chrome Browser, open die.
-    - Ga naar https://github.com/ 
+    - Ga naar https://github.com/
     - Gebruik je schoolmail en kies een inlognaam die begint met je voornaam, maak daarmee een account aan.
     - Ga terug naar https://github.com/informaticascw/h4v4-website-template/
 
@@ -23,7 +23,7 @@ Je maakt één kopie per groepje. De kopie die je maakt noemen ze in GitHub een 
     - geef naam zoals jaar-html-klas-voornamen, bijvoorbeeld 2324-website-h4in2-sam-daan
     - kies public (niet private)
 
-![Use template](images/template.png)
+![Use template](images/readme/template.png)
 
 ## 2. Open een Codespace van jullie kopie
 
@@ -32,16 +32,16 @@ Een Codespace is een online ontwikkelomgeving. Dat betekent dat je via een brows
     - klik op groen knop "Code" (1)
     - klik op tabje "Codespaces" (2)
     - klik op "Create Codespace on main" (3)
-  
-![Codespace](images/codespace.png)
+
+![Codespace](images/readme/readme/codespace.png)
 
 ## 3. Voeg bestanden toe om je website te maken
 
 Je kunt nieuwe mappen en bestanden maken, kopieren een nieuwe naam geven of uploaden. Bestanden uploaden gebruik je voor plaatjes.
 
     - Maak een kleine wijziging in de tekst in het bestand index.html
-    
-![Bestanden](images/bestand.png)
+
+![Bestanden](images/readme/bestand.png)
 
 ## 4. Bekijk het resultaat in de Simple Browser.
 
@@ -54,23 +54,22 @@ Op school zit er een fout in het netwerk, gebruik daar dit truukje:
     - Je ziet nu de webpagina die je in je codespace gemaakt hebt.
 
 Thuis en op andere plaatsen kun je het zo doen:
-    
+
     - Ga naar de Simple Browser tab en klik op reload
     - Als de Simple Broswer niet geopend is, dan kun je die als volgt openen:
     - Klik op Ports (1)
     - Ga met je muis op de regel "Webserver" staan (2)
     - Klik op het grijze icoontje rechts naast het wereldbolletje (3)
 
-  
-![Preview](images/port.png)
+![Preview](images/readme/port.png)
 
 ## 5. Bewaar je laatste versie in GitHub.
 
     - Klik op het icoontje met de twee streepjes en 3 bolletjes (1)
     - Type bij "Message" enkele woorden wat je gedaan hebt (2)
     - Klik op "Commit & Sync" (3)
-  
-![Commit](images/commit.png)
+
+![Commit](images/readme/commit.png)
 
 ## 6. Geef je teamgenoten toegang tot je kopie
 
@@ -79,12 +78,11 @@ Thuis en op andere plaatsen kun je het zo doen:
     - Je teamgenoot logt in op GitHub, opent daarna de schoolmail en klikt op de groene knop "Accept Invitation" in het mailtje van GitHub
     - Als je een 404-error krijgt, dan ben je in de vorige stap vergeten in te loggen op GitHub
     - Nodig ook je docent uit (GitHub account is vangeest)
-    
+
 Iedereen uit je groepje kan nu een eigen Codespace maken en de wijzigingen bewaren in de repository van jullie team in GitHub.
 
     - Iedereen behalve jij doet stap 2 tot en met 5, jij helpt als ze er niet uit komen.
     - Je kijkt in GitHub of je de wijzigingen kunt zien die je teamgenoten maken. Reload de pagina met de repository in GitHub.
-    - Als alles goed gaat dan haalt jouw Codespace de wijzigingen automatisch op uit GitHub. Kun je de wijzigingen van je groepsgenoten zien in jouw Codespace? 
-    
-     
+    - Als alles goed gaat dan haalt jouw Codespace de wijzigingen automatisch op uit GitHub. Kun je de wijzigingen van je groepsgenoten zien in jouw Codespace?
+
 

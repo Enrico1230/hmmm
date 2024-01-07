@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+// Css Variables
+:root {
+  --color-primary: #007688;
+  --color-secondary: #7bd15e;
+  --color-light: #fff;
+  --color-dark: #212121;
+
+  --font-family: "Open Sand", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url("./images/stanislas-header.jpg");
+
+  nav {
+    width: 100%;
+    height: 120px;
+
+    background: rgba(33, 33, 33, 0.77);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    ul {
+      position: relative;
+      right: 10%;
+      width: 100%;
+      text-align: right;
+      list-style-type: none;
+      li.nav_item {
+        display: inline;
+
+        a.nav_link {
+          padding: 8px;
+          color: var(--color-dark);
+          text-decoration: none;
+          width: fit-content;
+          position: relative;
+          transition: all 1s;
+          border: 1px solid red;
+          overflow: hidden;
+
+          &::after {
+            content: "";
+            width: 90%;
+            height: 2px;
+            background: var(--color-primary);
+            position: absolute;
+            bottom: -1px;
+            left: 5%;
+            transition: all 1s;
+            z-index: -1;
+            transform: translateX(-100%);
+          }
+          &:hover::after {
+            transform: translateX(0);
+          }
+        }
+      }
+    }
+  }
+}
