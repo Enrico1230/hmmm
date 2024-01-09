@@ -16,6 +16,14 @@
   color: #fff;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 header {
   width: 100vw;
   height: 80vh;
@@ -26,7 +34,6 @@ header {
   background-size: cover;
   box-shadow: 10px 0px 10px black;
 }
-
 header nav {
   width: 80%;
   height: 100px;
@@ -39,19 +46,16 @@ header nav {
   background: rgba(33, 33, 33, 0.77);
   backdrop-filter: blur(5.5px);
 }
-
 header nav .nav_logo {
   position: relative;
   left: 10%;
   bottom: 2%;
   top: 2%;
 }
-
 header nav .nav_logo img {
   height: 50%;
   width: 130px;
 }
-
 header nav ul {
   position: relative;
   right: 10%;
@@ -59,18 +63,15 @@ header nav ul {
   text-align: right;
   list-style-type: none;
 }
-
 header nav ul li.nav_item {
   display: inline;
 }
-
 header nav ul li.nav_item a.nav_link {
   padding: 8px;
   color: var(--color-light);
   text-decoration: none;
   position: relative;
 }
-
 header nav ul li.nav_item a.nav_link:hover::after {
   content: "";
   width: 90%;
@@ -95,21 +96,16 @@ footer {
   justify-content: center;
   gap: 5%;
 }
-
 footer ul {
   list-style-type: none;
   height: 100px;
 }
-
 footer ul li {
   margin: 5px;
 }
-
 footer ul a {
   text-decoration: none;
 }
-
 footer ul a:hover {
   text-decoration: underline;
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

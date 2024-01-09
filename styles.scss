@@ -20,6 +20,14 @@
   color: #fff;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 header {
   width: 100vw;
   height: 80vh;
