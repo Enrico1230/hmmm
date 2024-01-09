@@ -17,7 +17,6 @@
   font-family: var(--font-family);
 
   scrollbar-color: var(--color-primary);
-  color: #fff;
 }
 
 body {
@@ -98,7 +97,53 @@ header {
 }
 
 main {
-  height: 100vh;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  article {
+    min-width: 80%;
+    max-width: 80%;
+    background: var(--color-secondary);
+    padding: 20px 40px;
+
+    .article_header {
+      text-align: center;
+      margin: 10px;
+      font-size: 40px;
+      margin: 40px;
+    }
+
+    .article_content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 60px;
+    }
+
+    p {
+      text-align: left;
+      max-width: 50%;
+      padding: 30px;
+    }
+    img {
+      width: 40%;
+      height: 40%;
+    }
+    a.lees_meer {
+      color: var(--color-dark);
+      text-decoration: none;
+      padding: 10px;
+      margin: 50px;
+      background-color: var(--color-light);
+      transition: 0.2s;
+
+      &:hover {
+        background: var(--color-primary);
+      }
+    }
+  }
 }
 
 footer {
@@ -123,6 +168,7 @@ footer {
 
     a {
       text-decoration: none;
+      color: var(--color-light);
 
       &:hover {
         text-decoration: underline;

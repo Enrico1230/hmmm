@@ -13,7 +13,6 @@
   box-sizing: border-box;
   font-family: var(--font-family);
   scrollbar-color: var(--color-primary);
-  color: #fff;
 }
 
 body {
@@ -83,7 +82,48 @@ header nav ul li.nav_item a.nav_link:hover::after {
 }
 
 main {
-  height: 100vh;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main article {
+  min-width: 80%;
+  max-width: 80%;
+  background: var(--color-secondary);
+  padding: 20px 40px;
+}
+main article .article_header {
+  text-align: center;
+  margin: 10px;
+  font-size: 40px;
+  margin: 40px;
+}
+main article .article_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+}
+main article p {
+  text-align: left;
+  max-width: 50%;
+  padding: 30px;
+}
+main article img {
+  width: 40%;
+  height: 40%;
+}
+main article a.lees_meer {
+  color: var(--color-dark);
+  text-decoration: none;
+  padding: 10px;
+  margin: 50px;
+  background-color: var(--color-light);
+  transition: 0.2s;
+}
+main article a.lees_meer:hover {
+  background: var(--color-primary);
 }
 
 footer {
@@ -105,6 +145,7 @@ footer ul li {
 }
 footer ul a {
   text-decoration: none;
+  color: var(--color-light);
 }
 footer ul a:hover {
   text-decoration: underline;
