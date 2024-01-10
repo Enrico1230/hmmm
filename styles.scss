@@ -91,6 +91,15 @@ header {
             left: 5%;
           }
         }
+        a.active::after {
+          content: "";
+          width: 90%;
+          height: 2px;
+          background: var(--color-primary);
+          position: absolute;
+          bottom: -1px;
+          left: 5%;
+        }
       }
     }
   }

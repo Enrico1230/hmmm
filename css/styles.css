@@ -80,6 +80,15 @@ header nav ul li.nav_item a.nav_link:hover::after {
   bottom: -1px;
   left: 5%;
 }
+header nav ul li.nav_item a.active::after {
+  content: "";
+  width: 90%;
+  height: 2px;
+  background: var(--color-primary);
+  position: absolute;
+  bottom: -1px;
+  left: 5%;
+}
 
 main {
   margin: 100px;
