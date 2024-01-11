@@ -91,47 +91,44 @@ header nav ul li.nav_item a.active::after {
 }
 
 main {
-  margin: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main article {
-  min-width: 80%;
-  max-width: 80%;
-  background: var(--color-secondary);
-  padding: 20px 40px;
+main article.over_ons {
+  position: relative;
+  width: 80%;
 }
-main article .article_header {
+main article.over_ons .article_header {
   text-align: center;
   margin: 10px;
   font-size: 40px;
   margin: 40px;
+  color: var(--color-secondary);
 }
-main article .article_content {
+main article.over_ons .article_content {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 60px;
+  height: 300px;
+  overflow: hidden;
 }
-main article p {
+main article.over_ons p {
   text-align: left;
   max-width: 50%;
-  padding: 30px;
+  padding: 100px;
 }
-main article img {
-  width: 40%;
-  height: 40%;
+main article.over_ons img {
+  width: 50%;
 }
-main article a.lees_meer {
+main article.over_ons a.lees_meer {
   color: var(--color-dark);
   text-decoration: none;
-  padding: 10px;
-  margin: 50px;
   background-color: var(--color-light);
   transition: 0.2s;
 }
-main article a.lees_meer:hover {
+main article.over_ons a.lees_meer:hover {
   background: var(--color-primary);
 }
 
