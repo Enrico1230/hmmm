@@ -1,0 +1,18 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.container {
+    width: 80%;
+}
+h1 {
+    padding: 20px 0px;
+    color: var(--color-secondary);
+}
+h2 {
+    color: var(--color-primary);
+    padding: 20px 0px;
+}
